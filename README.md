@@ -53,6 +53,16 @@ O objetivo deste projeto é construir uma base técnica sólida em SQL, modelage
 
 ---
 
+### 🧱 Dia 07: Subqueries e CTEs (Common Table Expressions)
+- **Conceitos:** Subconsultas aninhadas (`WHERE`, `HAVING`, `NOT EXISTS`) e criação de tabelas virtuais temporárias com CTEs (`WITH ... AS`).
+- **Aplicação:** 
+  - **Filtro Dinâmico:** Identificação de clientes com faturamento acumulado acima da média global.
+  - **Segmentação Comercial:** Classificação de perfis de clientes (VIP, Médio, Baixo) usando módulos isolados.
+  - **Auditoria de Portfólio:** Mapeamento de produtos/músicas do catálogo sem nenhuma venda realizada.
+- **Arquivo:** `dia-07-subqueries-e-ctes.sql`
+
+---
+
 ## 🛠️ Tecnologias e Ferramentas
 - **SGBD:** PostgreSQL
 - **Interface GUI:** DBeaver
