@@ -63,6 +63,16 @@ O objetivo deste projeto é construir uma base técnica sólida em SQL, modelage
 
 ---
 
+### 🪟 Dia 08: Window Functions (Funções de Janela)
+- **Conceitos:** Análises avançadas sem colapsar linhas usando `OVER()`, `PARTITION BY`, `ROW_NUMBER()` e `LAG()`.
+- **Aplicação:** 
+  - **Ranking Categórico:** Ranqueamento de músicas mais faturadas por gênero musical.
+  - **Análise Temporal (`MoM`):** Comparação do faturamento mensal atual com o mês anterior.
+  - **Soma Móvel / LTV:** Acompanhamento do gasto acumulado por cliente ao longo do tempo.
+- **Arquivo:** `dia-08-window-functions.sql`
+  
+---
+
 ## 🛠️ Tecnologias e Ferramentas
 - **SGBD:** PostgreSQL
 - **Interface GUI:** DBeaver
