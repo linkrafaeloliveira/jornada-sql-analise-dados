@@ -54,7 +54,7 @@ O objetivo deste projeto é construir uma base técnica sólida em SQL, modelage
 ---
 
 ### 🧱 Dia 07: Subqueries e CTEs (Common Table Expressions)
-- **Conceitos:** Subconsultas aninhadas (`WHERE`, `HAVING`, `NOT EXISTS`) e criação de tabelas virtuais temporárias com CTEs (`WITH ... AS`).
+- **Conceitos:** Subconsultas aninhadas (`WHERE`, `HAVING`, `NOT EXISTS`) e criação de conjuntos de dados temporários dentro da consulta com CTEs (WITH ... AS)
 - **Aplicação:** 
   - **Filtro Dinâmico:** Identificação de clientes com faturamento acumulado acima da média global.
   - **Segmentação Comercial:** Classificação de perfis de clientes (VIP, Médio, Baixo) usando módulos isolados.
@@ -73,6 +73,14 @@ O objetivo deste projeto é construir uma base técnica sólida em SQL, modelage
   
 ---
 
+### 🪟 Dia 09: Views e Temporary Tables
+- **Conceitos:** Criação de consultas reutilizáveis com `VIEW` e armazenamento temporário de resultados com `TEMP TABLE`.
+- **Aplicação:** 
+  - **Consultas Reutilizáveis:** Criação de views para padronizar análises de clientes e faturamento.
+  - **Análise de Clientes:** Identificação dos clientes com maior valor total gasto.
+  - **Armazenamento Temporário:** Criação de tabelas temporárias para manipulação e análise de dados durante a sessão.
+  - **Comparação de Estruturas:** Entendimento das diferenças entre CTE, `VIEW` e `TEMP TABLE`.
+- **Arquivo:** `dia-09-views-e-temporary-tables.sql`
 ## 🛠️ Tecnologias e Ferramentas
 - **SGBD:** PostgreSQL
 - **Interface GUI:** DBeaver
